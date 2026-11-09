@@ -194,7 +194,7 @@ export default function FinalRoundButtonControls({ game, send, setGame }: FinalR
 
               send({ action: "data", data: updatedGame });
               send({
-                action: effectiveSelection !== 0 ? "final_submit" : "mistake",
+                action: effectiveSelection !== 0 ? "final_submit" : "final_submit_wrong",
               });
 
               return updatedGame;

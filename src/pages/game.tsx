@@ -208,7 +208,10 @@ export default function GamePage() {
         const audio = new Audio("duplicate.mp3");
         audio.play();
       } else if (json.action === "final_submit") {
-        const audio = new Audio("good-answer.mp3");
+        const audio = new Audio("fm-points.mp3");
+        audio.play();
+      } else if (json.action === "final_submit_wrong") {
+        const audio = new Audio("fm-zero-points.mp3");
         audio.play();
       } else if (json.action === "final_wrong") {
         const audio = new Audio("try-again.mp3");
