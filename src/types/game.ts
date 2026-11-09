@@ -23,6 +23,7 @@ export const WSAction = {
   FINAL_REVEAL: "final_reveal",
   DUPLICATE: "duplicate",
   FINAL_SUBMIT: "final_submit",
+  FINAL_SUBMIT_WRONG: "final_submit_wrong",
   FINAL_WRONG: "final_wrong",
   SET_TIMER: "set_timer",
   STOP_TIMER: "stop_timer",
